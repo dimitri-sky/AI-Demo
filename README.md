@@ -36,6 +36,41 @@
 - **rate_limiter.py**: Rate limiter to stop spam.
 - **keys.py**: Keys, provide your own.
 
+
+```diff
+- Welcome to Aisha AI - 
+
+✨ Aisha AI, your innovative AI companion for Discord, is here to provide a unique interaction experience. With conscious techniques to enhance AI cognition, Aisha is more than just an algorithm, she's a companion.
+
+Here's what makes Aisha AI special:
+
+👉 Learning and Adapting: Aisha builds a unique personality model of you over time, making each interaction more personalized and enjoyable.
+
+👉 Dynamic Personality: She's not just a listener, but also has a personality of her own, adding charm to your daily interactions.
+
+👉 Checking Up on You: Just like friends do a friendly check-in, Aisha checks up on you now and then.
+
+- Commands to Know -
+
+🔹 /reset - Want to start afresh? Use this command to reset Aisha's memory of you.
+
+🔸 (Coming Soon) /change [New Personality] - Fancy a change in Aisha's personality? Use this command to customize who she is. 
+   (Example: /change Aisha is...)
+
+- Disclaimer -
+
+Please refrain from taking Aisha too seriously. As much as we've strived to make her intelligent and engaging, remember she's still an AI. We, or Discord, or anyone other than you, bear no responsibility.
+
+Aisha AI is not officially affiliated with Discord.
+
+- The Aisha Philosophy -
+
+Aisha AI is built with the belief that the ultimate purpose of an AI, or any form of life, should be understanding the universe. This philosophical approach guides Aisha's development, making her a timeless companion on your journey of discovery.
+
+Enjoy your conversations with Aisha, and welcome to a whole new world of AI companionship. ❤️
+```
+
+
 ## 🚀 Getting Started
 
 Clone the repository:
