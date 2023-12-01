@@ -36,11 +36,12 @@
 - **rate_limiter.py**: Rate limiter to stop spam.
 - **keys.py**: Keys, provide your own.
 
-
+## ❤️ About
 ```diff
 - Welcome to Aisha AI - 
 
-✨ Aisha AI, your innovative AI companion for Discord, is here to provide a unique interaction experience. With conscious techniques to enhance AI cognition, Aisha is more than just an algorithm, she's a companion.
+✨ Aisha AI, your innovative AI companion for Discord, is here to provide a unique interaction experience.
+With conscious techniques to enhance AI cognition, Aisha is more than just an algorithm, she's a companion.
 
 Here's what makes Aisha AI special:
 
@@ -59,17 +60,18 @@ Here's what makes Aisha AI special:
 
 - Disclaimer -
 
-Please refrain from taking Aisha too seriously. As much as we've strived to make her intelligent and engaging, remember she's still an AI. We, or Discord, or anyone other than you, bear no responsibility.
+Please refrain from taking Aisha too seriously. As much as we've strived to make her intelligent and engaging,
+remember she's still an AI. We, or Discord, or anyone other than you, bear no responsibility.
 
 Aisha AI is not officially affiliated with Discord.
 
 - The Aisha Philosophy -
 
-Aisha AI is built with the belief that the ultimate purpose of an AI, or any form of life, should be understanding the universe. This philosophical approach guides Aisha's development, making her a timeless companion on your journey of discovery.
+Aisha AI is built with the belief that the ultimate purpose of an AI, or any form of life, should be understanding the universe.
+This philosophical approach guides Aisha's development, making her a timeless companion on your journey of discovery.
 
 Enjoy your conversations with Aisha, and welcome to a whole new world of AI companionship. ❤️
 ```
-
 
 ## 🚀 Getting Started
 
