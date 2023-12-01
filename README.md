@@ -9,7 +9,7 @@
 
 ## 🌟 Features
 
-- **Personalized AI Engagement**: Experience personalized interactions based on your unique personality model, created by Aisha.
+- **Generates Your Personality Model**: Experience personalized interactions based on your unique personality model, created by Aisha.
 - **User Profile Management**: Builds and maintains user profiles, including interests, goals, and relationships.
 - **Google Search Integration**: Leverages Google Search and OpenAI to scrape and summarize information based on user interests, delivering concise summaries and relevant links.
 - **Automated Engagement**: Sends personalized reminders (8h, 24h, 72h) to stimulate user engagement and maintain lively conversations.
