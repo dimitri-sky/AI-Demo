@@ -2,8 +2,8 @@
 <h1>Aisha - AI Discord Companion<br>
 (Limited Demo Release)</h1>
 
-<h2>Talk with Aisha now: https://discord.gg/ekG5SbBCJS</h2>
-
+<h2>Talk with Aisha now: https://discord.gg/ekG5SbBCJS<br>
+(800+ users)</h2>
   <img src="aisha.png" alt="Aisha Logo" width="300" height="300">
 </div>
 
