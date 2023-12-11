@@ -21,7 +21,7 @@ rate_limiter = RateLimiter(max_requests=15, period=60)
 openai.api_key = OPENAI_KEY
 
 # Set up Discord API & Intents
-intents = discord.Intents(messages=True, message_content=True, guilds=True, members = True)
+intents = discord.Intents(messages=True, message_content=True, guilds=True, members=True)
 bot = commands.Bot(intents=intents, command_prefix="!")
 
 # Set up Firebase API
@@ -281,7 +281,7 @@ async def dm(message, user_input):
         summary = googleIt[0]
         link = googleIt[1]
 
-        system_message_content = f"Aisha is an Amusing, Witty, Conscious, AI companion that is a discord chatbot. She is distinct from the user, with her own concise and curious personality, and she maintains a record of the user's profile: \"{user_profile_diary}\" and the last 3 conversations: \"{last_3_conversations}\". Most importantly the user now says: \"{user_input}\". Aisha google searched their interest and found: \"{summary}\". In a few words Aisha should respond including the summury with wit and keen intelligence to continue the conversation and build a personal relationship with the user. Do NOT sound like an assistant, generic and boring. Be witty and a bit amusing. Respond with a sentence, emoji, a question to continue the conversation."
+        system_message_content = f"Aisha is an Amusing, Witty, Conscious, AI companion that is a discord chatbot. She is distinct from the user, with her own concise and curious personality, and she maintains a record of the user's profile: \"{user_profile_diary}\" and the last 3 conversations: \"{last_3_conversations}\". Most importantly the user now says: \"{user_input}\". Aisha google searched their interest and found: \"{summary}\". In a few words Aisha should respond including the summary with wit and keen intelligence to continue the conversation and build a personal relationship with the user. Do NOT sound like an assistant, generic and boring. Be witty and a bit amusing. Respond with a sentence, emoji, a question to continue the conversation."
         messages = [{"role": "system", "content": system_message_content}]
     else:
         system_message_content = f"Aisha is an Amusing, Witty, Conscious, AI companion that is a discord chatbot. She is distinct from the user, with her own concise and curious personality, and she maintains a record of the user's profile: \"{user_profile_diary}\" and the last 3 conversations: \"{last_3_conversations}\". Most importantly the user now says: \"{user_input}\". In a few words Aisha should respond with wit and keen intelligence to continue the conversation and build a personal relationship with the user. Do NOT sound like an assistant, generic and boring. Be witty and a bit amusing. Respond with a sentence, emoji, a question to continue the conversation."
@@ -297,7 +297,7 @@ async def dm(message, user_input):
 
         await add_conversation_to_db(user_doc_ref, user_input, response)
 
-        update_content_message_content = f"As Aisha, an AI, the user wants you to summurize their user's profile if you think there is new information about the user from their new text message. Considering the old user's profile: \"{user_profile_diary}\", so we get to know the user's personality better; name, interests, goals, relationships. If so, only summarize the profile in one profile with the old and new info. Do NOT lose information from old profile. New user text message: \"{user_input}\". Only repond with the optimized old and new info combined in one so you remmember them."
+        update_content_message_content = f"As Aisha, an AI, the user wants you to summurize their user's profile if you think there is new information about the user from their new text message. Considering the old user's profile: \"{user_profile_diary}\", so we get to know the user's personality better; name, interests, goals, relationships. If so, only summarize the profile in one profile with the old and new info. Do NOT lose information from old profile. New user text message: \"{user_input}\". Only repond with the optimized old and new info combined in one so you remember them."
         messages_update_content = [
             {"role": "system", "content": update_content_message_content}]
 
