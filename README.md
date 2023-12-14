@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Aisha AI - Discord AI Companion<br>
+<h1>Aisha AI - a Discord Companion<br>
 (Limited Demo Release)</h1>
 
 <h2>Talk with Aisha AI now: https://discord.gg/ekG5SbBCJS<br>
