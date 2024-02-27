@@ -1,6 +1,6 @@
 <div align="center">
-<h1>Aisha AI - Discord Companion<br>
-(Limited Demo Release)</h1>
+Discord AI Companion<br>
+(Demo Release)</h1>
 
 <h2>Demo: https://discord.gg/ekG5SbBCJS<br>
 </div>
