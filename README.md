@@ -1,5 +1,5 @@
 <div align="center">
-Discord AI Companion<br>
+</h1>Discord AI Companion<br>
 (Demo Release)</h1>
 
 <h2>Demo: https://discord.gg/ekG5SbBCJS<br>
